@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="./assets/dota.jpg">
     <router-view></router-view>
-    <el-button @click.native="startHacking">Yes!</el-button>
   </div>
 </template>
 
