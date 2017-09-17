@@ -1,14 +1,14 @@
 <template>
-  <div class="home">
-    <router-link to="overview">
-      <el-button type="primary" size="large">点我开始</el-button>
+  <div class="result">
+    <router-link to="save">
+      <el-button type="primary" size="large">干干干</el-button>
     </router-link>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'home',
+  name: 'result',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
